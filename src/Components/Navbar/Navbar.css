@@ -1,0 +1,134 @@
+.navigation a{
+    text-decoration: none;
+    margin: 0 8px;
+    color: #383636;
+    font-weight: 600;
+    font-size: 18px;
+   }
+   .navigation a:hover{
+     color: #000;
+   }
+   
+
+
+
+   .dropdown {
+       position: relative;
+       display: inline-block;
+     }
+     
+     .dropdown-link {
+       text-decoration: none;
+       color: #000;
+       padding: 0px;
+       display: inline-block;
+     }
+     
+     .dropdown-content {
+       display: none;
+       position: absolute;
+       background-color: #f9f9f9;
+       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+       z-index: 1;
+       border-top: 1px solid #ccc;
+     }
+     
+  
+     
+     .dropdown-item hr {
+       margin: 8px 0;
+       border: 0;
+       border-top: 1px solid #ccc;
+     }
+     
+     .dropdown:hover .dropdown-content {
+       display: block;
+     }
+    
+    .custom-navbar{
+      background-color: white!important;
+    }
+    .navbar-nav {
+      --bs-nav-link-padding-x: 0;
+      --bs-nav-link-padding-y: -0.5rem!important;
+    }
+    
+    
+
+    @media screen and (min-width: 993px) and (max-width: 1406px) { 
+      .navbar-nav  {
+        padding-left: 0px!important;
+        padding-right: 0px!important; 
+       
+      }
+      .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0px;
+      }
+      .navbar-nav  {
+        justify-content: space-between!important;
+      }
+    
+  }
+  @media (min-width: 1407px) {
+    .navigation {
+      justify-content: center;
+    }
+  }
+ 
+ /* ----------------------------------------------------------------------- */
+ 
+  
+  
+  
+  .dropdown-item {
+    padding: -2px 16px;
+    display: block;
+    white-space: nowrap;
+    /* Prevent line breaks */
+  }
+  
+  .dropdown-item hr {
+    margin: 8px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  
+  /* ----------------------------shoi new css---------------- */
+  
+  @media only screen and (min-width: 992px) {
+    .brandNav{
+      /* display: none; */
+      display: block;
+    }
+  
+    
+  }
+  @media only screen and (max-width: 992px) {
+    #rescstomcss_1 {
+      background-color: #fffdfd !important;
+    }
+  
+    .navbar-toggler {
+      background-color: #ffff;
+    }
+    .navbar>#cont_1 {
+      align-items: first baseline;
+    }
+  
+    #navbartop a {
+      padding: 0.4rem 0;
+      background-color: #f9f9f93e;
+    }
+  .navigation{
+    background-color: #ffff;
+  }
+    
+  }
+  
+  

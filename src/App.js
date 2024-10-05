@@ -7,17 +7,20 @@ import Home from './Components/Home/Home';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Card from './Components/Services/Card';
 
 
 function App() {
   return (
     <Router>
       
-   {/* <Navigation /> */}
-   {/* <Footer/> */}
+   <Navigation />
 
    <Home />
 
+   <Card />
+
+   <Footer/>
 
     <Routes>
       {/* <Route path="/" element={<Home />} /> */}
